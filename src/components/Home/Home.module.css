@@ -42,22 +42,46 @@ iframe {
     color: var(--text-color);
     font-family: Tahoma;
 }
+.infoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
 .twoCardsContainer{
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    align-items: center;
 }
 .twoCardsText{
     flex-basis: 40%;
     color: var(--text-color);
-    font-family: Tahoma;
-    letter-spacing: 1px;
-    line-height: 25px;
+    font-family: open sans,sans-serif;
+    line-height: 1.6em;
     margin: 50px;
+    text-align: justify;
+    font-size: 14px;
 }
 .twoCardsImage{
-    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-    overflow: hidden;
-    animation: morph 3s linear infinite;
-    flex-basis: 40%;
-    height: 120%;
-    margin: 39px;
+   width: 90%;
+   height: 300px;
+}
+.subTitleText{
+    color: #44995f;
+    font-size: 40px;
+    flex-basis: 15%;
+    letter-spacing: 2px;
+    line-height: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: right;
+}
+.greenBG{
+    background-color: #44995f;
+}
+.whiteText{
+    color: white;
 }
