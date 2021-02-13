@@ -5,11 +5,10 @@
 }
 .flexContainer {
     display: flex;
-    border: 2px solid orange;
 }
 img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin: 10px;
 }
 .logoText {
@@ -19,12 +18,13 @@ img {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h2 {
-    font: bold 11px Tahoma, 'trebuchet MS', Sans-serif;
-    color: #666666;
+    font:  12.75px Tahoma, 'trebuchet MS', Sans-serif;
+    font-style: italic;
+    color: rgb(33, 54, 48);
     margin-left: 50px;
 }
 .headerTextBlue {
-    color: #4284B0;
+    color: #264255;
 }
 .headerTextGreen {
     color: #9EC630;

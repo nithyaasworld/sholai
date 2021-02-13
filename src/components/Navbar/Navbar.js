@@ -4,9 +4,9 @@ import navBarStyles from './Navbar.module.css';
 
 const Navbar = () => {
     return (
-        <div className="flexContainer">
+        <div className={navBarStyles.flexContainer}>
             <Logo />
-            <ul className="flexContainer">
+            <ul className={navBarStyles.flexContainer}>
                 <li>Home</li>
                 <li>Sholai School</li>
                 <li>Articles</li>
