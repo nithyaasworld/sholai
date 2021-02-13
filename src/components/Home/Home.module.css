@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flexContainer{
+    display: flex;
+    padding: 20px;
+    background-color: #2A2A2A;
+    align-items: center;
+}
+iframe {
+    width: 60vw;
+    height: 70vh;
+}
+.homeText{
+    color: white;
+    font-size: 20px;
+}
+.wavyLine{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
