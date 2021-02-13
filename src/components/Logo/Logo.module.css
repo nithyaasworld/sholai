@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.flexContainer {
+    display: flex;
+    border: 2px solid orange;
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.logoText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2 {
+    font: bold 11px Tahoma, 'trebuchet MS', Sans-serif;
+    color: #666666;
+    margin-left: 50px;
+}
+.headerTextBlue {
+    color: #4284B0;
+}
+.headerTextGreen {
+    color: #9EC630;
+}
