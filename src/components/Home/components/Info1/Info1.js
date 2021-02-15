@@ -3,7 +3,7 @@ import Info1Styles from './Info1.module.css';
 
 const Info1 = () => {
     return (
-        <div>
+        <div className={Info1Styles.topMarginForInfo1}>
             <h1 className={Info1Styles.subHeaderText}>What is Sholai School, CLOAAT?</h1>
             <div className={Info1Styles.infoContainer}>
                 <div className={Info1Styles.subTitleText}>
