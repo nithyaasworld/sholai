@@ -1,6 +1,7 @@
 import React from 'react';
 import Info1 from './components/Info1/Info1';
 import Info2 from './components/Info2/Info2';
+import Info3 from './components/Info3/Info3';
 import homeStyles from './Home.module.css';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <img className={homeStyles.wavyLine} src={process.env.PUBLIC_URL + "/wavyLine.svg"} alt="wavy line separator"></img>
             <Info1 />
             <Info2 />
+            <Info3 />
         </>
     );
 };
