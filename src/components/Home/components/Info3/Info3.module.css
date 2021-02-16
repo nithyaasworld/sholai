@@ -7,19 +7,21 @@
     flex-basis: 30%;
     border: 3px solid #44995f;
     border-radius: 10px;
-    height: 400px;
     margin-top: 30px;
+    box-shadow: 5px 5px 12px #275c38;
+    padding: 20px;
 }
 .transparentBG{
     background-color: rgba(0,0,0, 0.7);   
 }
 h4{
     color: white;
-    font-weight: bolder;
+    line-height: 30px;
+    letter-spacing: 1.5px;
 }
 .parallax {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-  }
+}
